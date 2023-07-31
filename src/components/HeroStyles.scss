@@ -1,0 +1,81 @@
+// .hero img{
+//     width: 100%;
+//     height: 100%;
+// }
+.hero{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    color: rgb(12, 41, 52);
+}
+.hero-mid{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    color: rgb(12, 41, 52);
+}
+.hero-mid h1{
+    padding-top: 4rem !important;
+}
+img{
+    width: 90%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.hero-text{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 90%;
+    color: rgb(12, 41, 52);
+}
+.hero-text h1{
+    font-size: 3rem;
+    font-weight: 900;
+    background:  white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.hero-text p{
+    font-size: 1.4rem;
+    color: white;
+    font-weight: bold;
+    padding:0.5rem 0 2rem 0 ;
+}
+.hero-text .show{
+    text-decoration: none;
+    background: #fff;
+    border-radius: 0.4rem;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    color:  rgb(12, 41, 52);
+    opacity: 0.92;
+    transition: all 0.3s;
+}
+.hero-text .show:hover{
+    background-color: rgb(12, 41, 52);
+    color: #fff;
+}
+.hero-text .hide{
+    display: none;
+}
+
+@media screen and (max-width: 555px){
+    .hero-text h1{
+         padding: 1rem 2rem;
+         font-size: 2rem;
+    }
+    .hero-text p{
+        font-size: 1rem;
+        padding: 0 0 1.2rem 0;
+    }
+    .hero-text .show{
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+    }
+
+}

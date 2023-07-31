@@ -1,0 +1,19 @@
+.about-container{
+    margin: 4rem 6rem;
+    text-align: start;
+    color: rgb(12, 41, 52);
+
+}
+.about-container h1{
+    padding-bottom: 1rem;
+}
+.about-container p{
+    padding-bottom: 1rem;
+}
+
+@media screen and (max-width: 800px) {
+    .about-container{
+        margin: 4rem 2rem;
+    }
+}
+    

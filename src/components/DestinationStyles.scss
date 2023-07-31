@@ -1,0 +1,101 @@
+.destination{
+    margin: 2rem 3rem;
+}
+.destination h1{
+    font-size: 3rem;
+}
+.destination p{
+    font-size: 1.1rem;
+}
+.first-des{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+}
+
+.first-des p{
+    margin-left: 5%;
+    margin-top: 5%;
+
+    text-align: start;
+    font-size: 1rem;
+}
+
+.first-des img{
+    width: 48%;
+    height: 350px;
+    object-fit: cover;
+    box-shadow: -1px 1px 62px -18px rgba(0,0,0,0.39);
+    border-radius: 0.5rem;
+}
+
+.sec-des{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+}
+
+.des-text{
+    width: 45%;
+    text-align: start;
+    font-size: 1.2rem;
+}
+
+.des-text h2{
+    padding-bottom: 1rem;
+}
+.image{
+    position: relative;
+    width: 52%;
+    display: flex;
+    justify-content: space-between;
+    z-index: -99;
+}
+.image img{
+    width: 49%;
+    height: 350px;
+    object-fit: cover;
+    box-shadow: -1px 1px 62px -18px rgba(0,0,0,0.39);
+    border-radius: 0.5rem;
+}
+.image img:nth-child(2){
+    position: absolute;
+    top: -10%;
+    right: 0;
+}
+
+@media  screen and (max-width: 800px) {
+    .destination{
+        margin: 1.5rem 2rem;
+    }
+    .destination h1{
+        font-size: 2.5rem;
+    }
+    .destination p{
+        font-size: 0.9rem;
+        letter-spacing: 0.5px;
+    }
+    .first-des{
+        flex-direction: column;
+        margin-top: 2.5rem;
+    }
+    .sec-des{
+        flex-direction: column;
+        margin-top: 2.5rem;
+    }
+    .des-text{
+        width: 100%;
+        font-size: 1rem;
+        margin-bottom: 3rem;
+    }
+    .image{
+        width: 100%;
+    }
+    .image img{
+        width: 48%;
+        height: 250px;
+    }
+}
